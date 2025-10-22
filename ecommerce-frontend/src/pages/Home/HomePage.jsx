@@ -3,6 +3,7 @@ import React, { useEffect , useState } from 'react'
 import './HomePage.css'
 import Header from "../../Components/Header.jsx"
 import CheckmarkIcon from '../../assets/images/icons/checkmark.png';
+import { formatMoney } from '../../utils/money.js';
 
 function HomePage({cart}){
 
@@ -52,7 +53,7 @@ function HomePage({cart}){
                 </div>
 
                 <div className="product-price">
-                  ${(product.priceCents / 100).toFixed(2)}
+                  {formatMoney(product.priceCents)}
                 </div>
 
                 <div className="product-quantity-container">
