@@ -1,3 +1,4 @@
+import axios from 'axios'
 import './HomePage.css'
 import Header from "../../Components/Header.jsx"
 import CheckmarkIcon from '../../assets/images/icons/checkmark.png';
@@ -5,12 +6,11 @@ import { products } from '../../data/products.js';
 
 function HomePage(){
 
-  fetch('http://localhost:3000/api/products')
+  axios.get('http://localhost:3000/api/products')
     .then((response) => {
-      return response.json()
-      }).then((data) => {
-        console.log(data);
+      console.log(response.data)
     })
+      
 
     return(
         <div>
