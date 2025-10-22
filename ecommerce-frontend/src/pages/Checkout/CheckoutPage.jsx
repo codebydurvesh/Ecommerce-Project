@@ -22,8 +22,6 @@ function CheckoutPage({ cart }) {
     fetchCheckoutData();
   }, []);
 
-  fetchCheckoutData();
-
   return (
     <>
       <title>Checkout</title>
