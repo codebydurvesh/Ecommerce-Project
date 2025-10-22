@@ -6,6 +6,9 @@ function OrdersPage(){
     return(
         <>
             <title>Orders</title>
+
+            <link rel="icon" href="images/icons/orders.png" />
+
             <Header />
 
     <div className="orders-page">

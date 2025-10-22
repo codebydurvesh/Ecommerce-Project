@@ -6,6 +6,9 @@ function TrackingPage(){
     return(
         <>
             <title>Tracking</title>
+
+            <link rel="icon" href="images/icons/cart.png" />
+
             <Header />
 
     <div class="tracking-page">

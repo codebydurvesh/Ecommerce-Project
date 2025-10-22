@@ -7,6 +7,8 @@ function HomePage(){
 
             <title>Ecommerce Project</title>
 
+            <link rel="icon" href="images/icons/home.png" />
+
             <Header />
 
             <div className="home-page">
