@@ -1,6 +1,6 @@
-import CheckoutHeader from "../Components/CheckoutHeader";
+import CheckoutHeader from "../../Components/CheckoutHeader";
 import "./CheckoutPage.css"
-import { Link } from 'react-router-dom';
+
 
 
 function CheckoutPage(){

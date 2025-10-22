@@ -1,8 +1,8 @@
 import {Routes, Route} from 'react-router-dom'
-import HomePage from './pages/HomePage.jsx'
-import CheckoutPage from './pages/CheckoutPage.jsx'
-import OrdersPage from './pages/OrdersPage.jsx'
-import TrackingPage from './pages/TrackingPage.jsx'
+import HomePage from './pages/Home/HomePage.jsx'
+import CheckoutPage from './pages/Checkout/CheckoutPage.jsx'
+import OrdersPage from './pages/Orders/OrdersPage.jsx'
+import TrackingPage from './pages/Tracking/TrackingPage.jsx'
 import './App.css'
 
 function App() {
