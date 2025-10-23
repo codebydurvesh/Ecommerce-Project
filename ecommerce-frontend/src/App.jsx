@@ -7,7 +7,6 @@ import ErrorPage from "./pages/ErrorPage/ErrorPage.jsx";
 import "./App.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { useParams } from "react-router-dom";
 
 function App() {
   const [cart, setCart] = useState([]);
