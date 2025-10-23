@@ -6,21 +6,17 @@ import CheckmarkIcon from "../../assets/images/icons/checkmark.png";
 function Product({ product, loadCart }) {
   const [quantity, setQuantity] = useState(1);
 
-  const addToCart = () => {
-    async () => {
-      await axios.post("/api/cart-items", {
-        productId: product.id,
-        quantity,
-      });
-      await loadCart();
-    };
+  const addToCart = async () => {
+    await axios.post("/api/cart-items", {
+      productId: product.id,
+      quantity: quantity,
+    });
+    await loadCart();
   };
 
-  const selectQuantity = () => {
-    (e) => {
-      const quantitySelected = Number(e.target.value);
-      setQuantity(quantitySelected);
-    };
+  const selectQuantity = (event) => {
+    const quantitySelected = Number(event.target.value);
+    setQuantity(quantitySelected);
   };
 
   return (
