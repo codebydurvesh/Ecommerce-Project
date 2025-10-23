@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./HomePage.css";
 import Header from "../../Components/Header.jsx";
 import ProductsGrid from "./ProductsGrid.jsx";
-import { useSearchParams } from "react-router";
+import { useSearchParams } from "react-router-dom";
 
 function HomePage({ cart, loadCart }) {
   const [products, setProducts] = useState([]);
