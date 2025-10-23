@@ -11,6 +11,9 @@ import axios from "axios";
 function App() {
   const [cart, setCart] = useState([]);
 
+  window.axios = axios; // type axios.post('/api/reset') in the console
+  // It will resets the data to some default values
+
   const loadCart = async () => {
     const response = await axios.get("/api/cart-items?expand=product");
     setCart(response.data);
