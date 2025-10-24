@@ -26,7 +26,7 @@ function HomePage({ cart, loadCart }) {
     <div>
       <title>Ecommerce Project</title>
 
-      <link rel="icon" href="images/icons/home.png" />
+      <link rel="icon" href="/public/images/icons/home.png" />
 
       <Header cart={cart} />
 

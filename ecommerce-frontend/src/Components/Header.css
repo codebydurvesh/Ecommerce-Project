@@ -36,15 +36,32 @@
 
 .header .header-link:hover {
   border: 1px solid white;
+  border-radius: 10px;
 }
 
 .header .logo {
   height: 26px;
   margin-top: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .header .mobile-logo {
   display: none;
+}
+
+.header .mobile-logo .text-1{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.header .mobile-logo .text-3{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media (max-width: 675px) {
@@ -54,8 +71,8 @@
 
   .header .mobile-logo {
     display: block;
-    height: 26px;
-    margin-top: 1px;
+    height: 35px;
+    margin-bottom: 8px;
   }
 }
 

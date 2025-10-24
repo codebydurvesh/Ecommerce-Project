@@ -32,6 +32,8 @@ function CheckoutPage({ cart, loadCart }) {
     <>
       <title>Checkout</title>
 
+      <link rel="icon" href="/public/images/icons/cart.png" />
+
       <CheckoutHeader />
 
       <div className="checkout-page">

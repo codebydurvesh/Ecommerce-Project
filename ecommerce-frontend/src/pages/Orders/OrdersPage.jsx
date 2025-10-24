@@ -20,7 +20,7 @@ function OrdersPage({ cart }) {
     <>
       <title>Orders</title>
 
-      <link rel="icon" href="images/icons/orders.png" />
+      <link rel="icon" href="/public/images/icons/orders.png" />
 
       <Header cart={cart} />
 

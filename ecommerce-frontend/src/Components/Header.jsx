@@ -39,8 +39,12 @@ function Header({ cart }) {
       <div className="header">
         <div className="left-section">
           <NavLink to="/" className="header-link">
-            <img className="logo" src={LogoWhite} />
-            <img className="mobile-logo" src={MobileLogoWhite} />
+            <p className="logo">CodeByDurvesh</p>
+
+            <div className="mobile-logo">
+              <p className="text-1">CodeBy</p>
+              <p className="text-3">Durvesh</p>
+            </div>
           </NavLink>
         </div>
 

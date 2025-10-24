@@ -28,11 +28,28 @@
 
 .checkout-header .logo {
   height: 26px;
-  margin-top: 0px;
+  margin-top: 1px;
+  color: rgb(25, 135, 84);
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
 }
 
 .checkout-header .mobile-logo {
   display: none;
+}
+
+.checkout-header .mobile-logo .text-1{
+  color: rgb(25, 135, 84);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.checkout-header .mobile-logo .text-3{
+  color: rgb(25, 135, 84);
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* @media is used to create responsive design (making the
@@ -49,8 +66,9 @@
   }
 
   .checkout-header .mobile-logo {
-    display: inline-block;
-    height: 26px;
+    display: block;
+    height: 35px;
+    margin-bottom: 8px;
   }
 }
 
