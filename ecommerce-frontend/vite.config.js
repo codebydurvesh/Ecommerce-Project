@@ -8,9 +8,13 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "https://ecommerce-project-backend-n78t.onrender.com",
+        changeOrigin: true,
+        secure: false,
       },
       "/images": {
         target: "https://ecommerce-project-backend-n78t.onrender.com",
+        changeOrigin: true,
+        secure: false,
       },
     },
   },
