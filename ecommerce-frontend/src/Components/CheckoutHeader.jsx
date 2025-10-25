@@ -1,8 +1,6 @@
 import "./CheckoutHeader.css";
 import { NavLink, useNavigate, Link } from "react-router-dom";
 import CheckoutLockIcon from "../assets/images/icons/checkout-lock-icon.png";
-import Logo from "../assets/images/logo.png";
-import MobileLogo from "../assets/images/mobile-logo.png";
 
 function CheckoutHeader() {
   const navigate = useNavigate();

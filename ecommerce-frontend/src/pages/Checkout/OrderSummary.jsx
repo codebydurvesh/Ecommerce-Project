@@ -1,7 +1,5 @@
 import dayjs from "dayjs";
-import { formatMoney } from "../../utils/money";
 import DeliveryOptions from "./DeliveryOptions";
-import React, { Fragment } from "react";
 import axios from "axios";
 import { CartItemDetails } from "./CartItemDetails";
 

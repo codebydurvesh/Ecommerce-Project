@@ -1,7 +1,7 @@
 import "./OrdersPage.css";
 import Header from "../../Components/Header.jsx";
 import axios from "axios";
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import OrdersGrid from "./OrdersGrid.jsx";
 
 function OrdersPage({ cart }) {
