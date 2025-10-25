@@ -1,5 +1,5 @@
 import { NavLink, useNavigate, useSearchParams } from "react-router-dom";
-import "./header.css";
+import "./Header.css";
 import CartIcon from "../assets/images/icons/cart-icon.png";
 import SearchIcon from "../assets/images/icons/search-icon.png";
 import LogoWhite from "../assets/images/logo-white.png";
